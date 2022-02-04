@@ -25,7 +25,7 @@ const nuevoModulo = 21 % 5 === 4.2;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-let str = "hola";
+str = "hola";
 
 function devolverString(str) {
   // "Return" la string provista: str
@@ -33,7 +33,7 @@ function devolverString(str) {
   return str;  
 }
 
-let x = 10, y = 20;
+x = 10, y = 5;
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -64,19 +64,19 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  (x === y) ? true : false;
+  (x == y) ? true : false;
 }
 
-let str1 = "hola", str2 = "Hola";
+str1 = "hola", str2 = "Hola";
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  (str1.length === str2.length) ? true : false;
+  (str1.length == str2.length) ? true : false;
 }
 
-let num = 25;
+num = 25;
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -102,14 +102,14 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  (num % 2 === 0) ? true : false;
+  (num % 2 == 0) ? true : false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  (num % 2 !== 0) ? true :false;
+  (num % 2 != 0) ? true : false;
 }
 
 function elevarAlCuadrado(num) {
@@ -125,7 +125,7 @@ function elevarAlCubo(num) {
   return Math.pow(num, 3);
 }
 
-let exponent = 2;
+exponent = 2;
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
@@ -153,7 +153,7 @@ function numeroRandom() {
   return Math.random().toFixed(2);
 }
 
-let numero = -4;
+numero = -4;
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -176,7 +176,7 @@ function agregarSimboloExclamacion(str) {
   return str.concat("!"); 
 }
 
-let nombre = "Alexis", apellido = "Scuderi";
+nombre = "Alexis", apellido = "Scuderi";
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -192,7 +192,7 @@ function obtenerSaludo(nombre) {
   return `Hola ${nombre}!`;
 }
 
-let alto = 5, ancho = 8;
+alto = 5, ancho = 8;
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
@@ -200,7 +200,7 @@ function obtenerAreaRectangulo(alto, ancho) {
   return alto * ancho;
 }
 
-let lado = 5;
+lado = 5;
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
@@ -208,7 +208,7 @@ function retornarPerimetro(lado){
   return lado * 4;
 }
 
-let base = 2, altura = 5;
+base = 2, altura = 5;
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
@@ -216,7 +216,7 @@ function areaDelTriangulo(base, altura){
   return (base * altura) / 2;
 }
 
-let euro = 5;
+euro = 5;
 
 function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
@@ -225,7 +225,7 @@ function deEuroAdolar(euro){
   return euro * 1.2;
 }
 
-let letra = "a";
+letra = "a";
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
@@ -233,7 +233,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  (letra === a || letra === e || letra === i || letra === o || letra === u) ? "Es vocal" : "Dato incorrecto";
+  (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") ? "Es vocal" : "Dato incorrecto";
 }
 
 
