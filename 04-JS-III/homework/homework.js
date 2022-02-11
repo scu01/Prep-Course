@@ -148,9 +148,9 @@ function diaDeLaSemana(numeroDeDia) {
     if (numeroDeDia === 1 || numeroDeDia === 7) {
       return "Es fin de semana";
     } else {
-      return "Es dia laboral";
+      return "Es dia Laboral";
     } 
-} //No se entiende la consigna
+} //Consigna mal redactada
 
 
 function empiezaConNueve(n) {
