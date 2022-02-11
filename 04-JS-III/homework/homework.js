@@ -145,11 +145,7 @@ function diaDeLaSemana(numeroDeDia) {
   //Realiza una función que dado el número del día de la semana, retorne: Es fin de semana
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
-    if (numeroDeDia === 1 || numeroDeDia === 7) {
-      return "Es fin de semana";
-    } else {
-      return "Es dia Laboral";
-    } 
+  return (numeroDeDia === 1 || numeroDeDia === 7) ? "Es fin de semana" : "Es dia Laboral";
 } //Consigna mal redactada
 
 
@@ -184,12 +180,7 @@ function mesesDelAño(array) {
     if (array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
       meses.push(array[i]);
     }
-  }
-  if (meses.length === 3) {
-    return meses;
-  } else {
-    return "No se encontraron los meses pedidos";
-  }
+  } return (meses.length === 3) ? meses : "No se encontraron los meses pedidos";
 }
 
 
@@ -223,12 +214,7 @@ function breakStatement(numero) {
         numero += 2;
         array.push(numero);
     }
-  }
-  if (i !== numero) {
-    return array;
-  } else {
-    return "Se interrumpió la ejecución";
-  }
+  } return (i !== numero) ? array : "Se interrumpió la ejecución";
 }
 
 
