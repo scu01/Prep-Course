@@ -177,8 +177,6 @@ function obtenerSaludo(nombre) {
   return `Hola ${nombre}!`;
 }
 
-alto = 5, ancho = 8;
-
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
@@ -203,8 +201,6 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   return euro * 1.2;
 }
-
-letra = "a";
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 

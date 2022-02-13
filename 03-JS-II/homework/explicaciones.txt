@@ -1,5 +1,5 @@
 For: Es un bucle (todo lo que este adentro se va a ejecutar un X numero de veces).
-Este bucle necesita una variable que sirva de contador (cuantas veces se va a ejecutar), necesita una condicion (que mientras se cumpla el bucle se sigue ejecutando), y necesita un incremento (en cuanto se va a incrementar la variable contador). 
+Este bucle necesita una variable que sirva de contador (cuantas veces se va a ejecutar), necesita una condicion (que mientras se cumpla el bucle se sigue ejecutando), y necesita un incremento (en cuanto se va a incrementar la variable contador) 
 
 &&: Sirve para que se tengan que cumplir todas las condiciones contempladas
 

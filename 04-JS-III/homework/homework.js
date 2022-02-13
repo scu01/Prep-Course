@@ -69,9 +69,7 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === elemento) {
-      return true;
-    }
+    if (array[i] === elemento) return true;
   } return false;
 }
 
@@ -104,9 +102,7 @@ function numeroMasGrande(numeros) {
   // Tu código:
   let mayor= 0;
   for (let i = 0; i < numeros.length; i++) {
-    if (mayor < numeros[i]) {
-      mayor = numeros[i];
-    }
+    if (mayor < numeros[i]) mayor = numeros[i];
   } return mayor;
 }
 
@@ -116,12 +112,8 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
   let producto = arguments[0];
-  if (arguments.length === 0) {
-    return 0;
-  }
-  if (arguments.length === 1) {
-    return arguments[0];
-  }
+  if (arguments.length === 0) return 0;
+  if (arguments.length === 1) return arguments[0];
   for (let i = 1; i < arguments.length; i++) {
     producto *= arguments[i];
   } return producto;
@@ -133,9 +125,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   let contador = 0;
   for (let i = 0; i < arreglo.length; i++) {
-    if (arreglo[i] > 18){
-      contador++;
-    }
+    if (arreglo[i] > 18) contador++;
   } return contador;
 }
 
@@ -163,9 +153,7 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí  
   let elemento = arreglo[0];  
   for (let i = 1; i < arreglo.length; i++) {
-    if (elemento !== arreglo[i]) {
-      return false;
-    }
+    if (elemento !== arreglo[i]) return false;
   } return true;
 } 
 
@@ -177,9 +165,7 @@ function mesesDelAño(array) {
   // Tu código:
   let meses = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") {
-      meses.push(array[i]);
-    }
+    if (array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre") meses.push(array[i]);
   } return (meses.length === 3) ? meses : "No se encontraron los meses pedidos";
 }
 
@@ -190,9 +176,7 @@ function mayorACien(array) {
   // Tu código:
   let numeros = [];
   for (let i = 0; i < array.length; i++) {
-    if (array[i] > 100) {
-      numeros.push(array[i]);
-    }
+    if (array[i] > 100) numeros.push(array[i]);
   } return numeros;
 }
 

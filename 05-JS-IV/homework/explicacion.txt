@@ -1,0 +1,9 @@
+Objetos: Los objetos son representaciones de objetos en la vida real. Estos pueden tener propiedades (caracteristicas) y metodos (acciones)
+
+Propiedades: Son las caracteristicas de un objeto (si ponemos de ejemplo un auto, podria ser el color, puertas, motor, etc)
+
+Metodos: Son las acciones de los objetos (acelerar, frenar, etc)
+
+Bucle for in: Recorre un objeto, devolviendonos los nombres de sus propiedades y metodos, y sus valores
+
+Punto vs []: La notacion de puntos es una forma mas facil de usar las propiedades y metodos de un objeto ==> auto.color = rojo // auto.acelerar()

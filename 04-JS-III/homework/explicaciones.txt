@@ -1,1 +1,1 @@
-Arrays: Los arrays son variables que pueden guardar multiples datos y tipos de datos. Por ejemplo podriamos guardar una lista con numeros de telefono o nombres
+Arrays: Los arrays son variables que pueden guardar multiples datos y tipos de datos. Por ejemplo, podriamos guardar una lista con numeros de telefono o nombres

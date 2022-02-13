@@ -1,10 +1,10 @@
-Variables: Son espacios en memoria en donde se puede guardar informacion.
+Variables: Son espacios en memoria en donde se puede guardar informacion
 
-Strings: Son texto.
+Strings: Son texto
 
 Funciones: Son mini programas que hacen las funciones que les decimos, y que podemos ejecutar todas las veces que queramos. Estos aveces tienen "parametros", que son informacion o datos para estas funciones.
-Cuando la funcion termino de hacer todo lo que le pedimos, el resultado se muestra con un "return".
+Cuando la funcion termino de hacer todo lo que le pedimos, el resultado se muestra con un "return"
 
-If: Los if son condicionales, es decir que si se cumple una condicion hacen algo, y si no se cumple hacen algo diferente.
+If: Los if son condicionales, es decir que si se cumple una condicion hacen algo, y si no se cumple hacen algo diferente
 
-Booleanos: Son datos que tienen 2 posibles respuestas, verdadero o falso  (1 o 0).
+Booleanos: Son datos que tienen 2 posibles respuestas, verdadero o falso  (1 o 0)
