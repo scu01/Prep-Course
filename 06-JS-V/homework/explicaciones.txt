@@ -1,0 +1,3 @@
+Prototype: Todos los objetos en javascript tienen un prototipo, que vendria a ser la clase de la cual heredan propiedades y metodos.
+
+Constructores: Los constructores toman datos por parametros y los usan para construir los objetos y sus propiedades.
